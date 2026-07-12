@@ -22,3 +22,6 @@ slprj/
 WristControl.slx
 InitController.m
 
+# temp test files
+tmp/
+
