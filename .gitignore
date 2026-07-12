@@ -1,0 +1,24 @@
+# MATLAB temp files
+slprj/
+*.asv
+*.slxc
+*.slx.autosave
+*.slx.original
+
+# SolidWorks temporary files
+~$*.sldprt
+~$*.sldasm
+~$*.sld
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLD
+
+# SolidWorks backups and auto-recovery
+*.bak
+*.swbak
+
+
+# Control test files
+WristControl.slx
+InitController.m
+
