@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="Ali Rezaei" on="07/23/26||16:04:36" using="Simscape Multibody Link Version 7.4" from="SolidWorks 33.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="WristAssembly" uid="WristAssembly" version="48427">
+<AssemblyFile name="../solidworks/asm/WristAssembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Link3-2" uid="Link3-2" entityUid="Link3" rigid="true">
+<Transform>
+<Rotation>9.1448792699649491e-16 -4.8609587341616896e-16 0.99999999999999978 -1 -2.7755575615628914e-16 9.1448792699648229e-16 2.7755575615628914e-16 -1 -4.8609587341618158e-16</Rotation>
+<Translation>2.2537527399890634e-14 -4.5458742784106562e-14 0.27999999999999825</Translation>
+</Transform>
+<Instance name="angular contact ball bearing_68_din-2" uid="angular contact ball bearing_68_din-2" entityUid="angular contact ball bearing_68_din*:*DIN 628 - 7201B - 8,SI,NC,8_68">
+<Transform>
+<Rotation>1 2.1876973889684404e-16 -3.4465342807954836e-16 3.7462136504945893e-16 -0.82722891688653066 0.56186503634479446 -1.6218821471505817e-16 -0.56186503634479446 -0.82722891688653066</Rotation>
+<Translation>-0.18999999999997141 -2.7200464103316335e-15 -2.2160686354425902e-14</Translation>
+</Transform>
+</Instance>
+<Instance name="Pulley70mm-2" uid="Pulley70mm-2" entityUid="Pulley70mm*:*Default">
+<Transform>
+<Rotation>0.14240136669995718 1.1219434028013882e-13 0.98980899711105086 -0.98980899711105086 -5.7853037363596442e-16 0.14240136669995718 1.6549261960818721e-14 -1 1.1096858391833698e-13</Rotation>
+<Translation>0 0 0.24839999999997761</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3Shaft-1" uid="Link3Shaft-1" entityUid="Link3Shaft*:*Default">
+<Transform>
+<Rotation>-0.048889609586498288 -0.99880418805413496 1.121929676295442e-13 -0.99880418805413496 0.048889609586498281 -4.4408920985007514e-16 -5.0376369742366588e-15 -1.1208091746373046e-13 -0.99999999999999956</Rotation>
+<Translation>-9.5125432924084333e-15 -2.6090241078691179e-15 0.33824999999997762</Translation>
+</Transform>
+</Instance>
+<Instance name="angular contact ball bearing_68_din-1" uid="angular contact ball bearing_68_din-1" entityUid="angular contact ball bearing_68_din*:*DIN 628 - 7201B - 8,SI,NC,8_68">
+<Transform>
+<Rotation>1 2.6973532980190842e-16 -3.3401067099880702e-16 3.6334971266075987e-16 -0.94613465664152951 0.32377339529648663 -2.2868594795868166e-16 -0.32377339529648663 -0.94613465664152951</Rotation>
+<Translation>0.19000000000002884 -2.6090241078691179e-15 -2.1932894768377473e-14</Translation>
+</Transform>
+</Instance>
+<Instance name="BigBallBearingInner-1" uid="BigBallBearingInner-1" entityUid="BigBallBearingInner*:*Default">
+<Transform>
+<Rotation>0.3712139432212691 1.117952234683319e-13 -0.92854736462827603 0.92854736462827603 0 0.37121394322126916 4.1439074394133968e-14 -0.99999999999999978 -1.0383013893111577e-13</Rotation>
+<Translation>4.4020342926387457e-14 0 -0.14375000000002239</Translation>
+</Transform>
+</Instance>
+<Instance name="Flange-1" uid="Flange-1" entityUid="Flange*:*Default">
+<Transform>
+<Rotation>-1.0497295321598919e-13 -3.6821298633492182e-14 1 0.33208112870423695 -0.94325082770094615 1.2781637431753241e-16 0.94325082770094626 0.33208112870423695 1.1124348341776036e-13</Rotation>
+<Translation>0.24430000000003918 1.4988010832439613e-15 -0.099999999999994857</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3LShapeConnectorSide-1" uid="Link3LShapeConnectorSide-1" entityUid="Link3LShapeConnectorSide*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 1.1219296762954422e-13 5.3317231845784627e-15 -5.3317231845784272e-15 -3.1918911957974518e-16 0.99999999999999989 1.1219296762954421e-13 -1 -3.1918911957914692e-16</Rotation>
+<Translation>-1.3607165957147344e-15 -2.6090241078691179e-15 0.26839999999997777</Translation>
+</Transform>
+</Instance>
+<Instance name="BigBallBearing-2" uid="BigBallBearing-2" entityUid="BigBallBearing*:*Default">
+<Transform>
+<Rotation>0.051243554442995082 1.117952234683319e-13 0.99868618601042425 -0.99868618601042425 0 0.051243554442995089 5.7939764097625207e-15 -0.99999999999999978 1.1164593555212929e-13</Rotation>
+<Translation>4.7393962683152402e-14 -1.8873791418627661e-15 -0.17075000000002238</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCore-3" uid="MotorCore-3" entityUid="MotorCore*:*Default">
+<Transform>
+<Rotation>9.1448792699649491e-16 -1 2.7755575615628914e-16 -4.8609587341616896e-16 -2.7755575615628914e-16 -1 0.99999999999999978 9.1448792699648229e-16 -4.8609587341618158e-16</Rotation>
+<Translation>0.22920000000003993 -3.9412917374193057e-15 -0.099999999999996425</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3LShapeConnectorFront-5" uid="Link3LShapeConnectorFront-5" entityUid="Link3LShapeConnectorFront*:*Default">
+<Transform>
+<Rotation>1.1082442681654221e-13 0.99999999999999989 -5.3743396840951408e-15 0 -5.3780069751143373e-15 -1 -0.99999999999999978 1.108938157555813e-13 0</Rotation>
+<Translation>0.17500000000002885 -3.6082248300317588e-15 -2.4830266810351151e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3LShapeConnectorFront-4" uid="Link3LShapeConnectorFront-4" entityUid="Link3LShapeConnectorFront*:*Default">
+<Transform>
+<Rotation>9.1448792699649491e-16 -1 2.7755575615628914e-16 -4.8609587341616896e-16 -2.7755575615628914e-16 -1 0.99999999999999978 9.1448792699648229e-16 -4.8609587341618158e-16</Rotation>
+<Translation>-0.17499999999997143 -1.7763568394002505e-15 -4.1729410601534393e-14</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorShell-4" uid="MotorShell-4" entityUid="MotorShell*:*Default">
+<Transform>
+<Rotation>4.862240396192575e-14 -1 1.005478439153433e-13 -0.90179587463800737 -3.9450199334799972e-16 0.43216223861632247 -0.43216223861632247 -1.1168639778969585e-13 -0.90179587463800737</Rotation>
+<Translation>0.24180000000003921 1.4432899320127035e-15 -0.099999999999995121</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3LeftLShape-3" uid="Link3LeftLShape-3" entityUid="Link3LeftLShape*:*Default">
+<Transform>
+<Rotation>-1.1110133407794115e-13 -5.3780069751143025e-15 1 0 -1 -5.3780069751143388e-15 0.99999999999999956 0 1.1110133407794114e-13</Rotation>
+<Translation>0.18500000000003219 0.0099999999999962896 -0.030000000000001383</Translation>
+</Transform>
+</Instance>
+<Instance name="Pulley16mm-1" uid="Pulley16mm-1" entityUid="Pulley16mm*:*Default">
+<Transform>
+<Rotation>-9.2976102968220176e-14 6.120220522174593e-14 -1 0.55002313417867255 0.83514941888758443 0 0.83514941888758443 -0.55002313417867255 -1.1131156709905231e-13</Rotation>
+<Translation>0.27230000000003918 1.4988010832439613e-15 -0.099999999999991734</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3LeftLShape-4" uid="Link3LeftLShape-4" entityUid="Link3LeftLShape*:*Default">
+<Transform>
+<Rotation>-1.1185073461956313e-13 5.3711405660367966e-15 -1 3.1918911957974503e-16 1.0000000000000002 5.3711405660367627e-15 0.99999999999999978 -3.1918911957971978e-16 -1.1185073461956314e-13</Rotation>
+<Translation>-0.18499999999996811 -0.01000000000000173 -0.030000000000042829</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3LShapeConnectorBig-2" uid="Link3LShapeConnectorBig-2" entityUid="Link3LShapeConnectorBig*:*Default">
+<Transform>
+<Rotation>1 1.1179522346833187e-13 5.3780069751142899e-15 -5.378006975114297e-15 0 1 1.1179522346833189e-13 -0.99999999999999956 0</Rotation>
+<Translation>4.471423231677818e-14 -2.7755575615628914e-15 -0.14375000000002222</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3StellConnectors-1" uid="Link3StellConnectors-1" entityUid="Link3StellConnectors*:*Default">
+<Transform>
+<Rotation>-1.1774408275267011e-13 5.3801368536215441e-15 -1 3.2612801348365216e-16 1 5.3852878585888193e-15 0.99999999999999978 -2.9143354396409097e-16 -1.1779450443147432e-13</Rotation>
+<Translation>-0.18500026364680514 0.01999999999999813 0.0300726145104738</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3RightLShape-1" uid="Link3RightLShape-1" entityUid="Link3RightLShape*:*Default">
+<Transform>
+<Rotation>1.1252939884912755e-13 5.331723184578484e-15 1 -3.1918911957974493e-16 1 -5.3317231845784493e-15 -0.99999999999999956 -3.1918911957911995e-16 1.1252939884912753e-13</Rotation>
+<Translation>0.18500000000002548 -0.010000000000003673 0.029999999999998583</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3RightLShape-2" uid="Link3RightLShape-2" entityUid="Link3RightLShape*:*Default">
+<Transform>
+<Rotation>1.1172713978704414e-13 -5.3317231845784659e-15 -1 -3.1918911957974493e-16 -1 5.3317231845784312e-15 -0.99999999999999956 3.191891195791242e-16 -1.1172713978704411e-13</Rotation>
+<Translation>-0.18499999999997474 0.009999999999998288 0.029999999999957137</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link1-1" uid="Link1-1" entityUid="Link1" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-1.6477119732544959e-15 -7.5534890268216732e-14 0.28000000000000008</Translation>
+</Transform>
+<Instance name="Link1UpperShaft-1" uid="Link1UpperShaft-1" entityUid="Link1UpperShaft*:*Default">
+<Transform>
+<Rotation>0 1.0000000000000002 -6.9829125121101399e-15 0 6.9829125121101399e-15 1.0000000000000002 1 0 0</Rotation>
+<Translation>0 0 0.091000000000000025</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCore-2" uid="MotorCore-2" entityUid="MotorCore*:*Default">
+<Transform>
+<Rotation>0.5498736435474173 -1.5099346176594196e-16 -0.83524785311420491 -0.83524785311420491 1.2247224977993365e-16 -0.5498736435474173 1.8532200866783225e-16 1 0</Rotation>
+<Translation>0 0 -0.17920000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorBackCap-1" uid="MotorBackCap-1" entityUid="MotorBackCap*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 1.0755285551056204e-16 1.0755285551056204e-16 0 -1.0000000000000002 0 1 0</Rotation>
+<Translation>0 0 -0.20430000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Link1Body-3" uid="Link1Body-3" entityUid="Link1Body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.11499999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Link1LowerShaft-1" uid="Link1LowerShaft-1" entityUid="Link1LowerShaft*:*Default">
+<Transform>
+<Rotation>0 -1.0000000000000002 -1.1102230246251565e-16 0 -1.1102230246251565e-16 1.0000000000000002 -1 0 0</Rotation>
+<Translation>0 0 -0.091000000000000025</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorShell-3" uid="MotorShell-3" entityUid="MotorShell*:*Default">
+<Transform>
+<Rotation>1 -2.6367796834847463e-16 -2.1344037648418634e-14 -2.1302404284995191e-14 2.3592239273284576e-16 -1.0000000000000002 2.6876089624527387e-16 1.0000000000000002 2.3018605407593329e-16</Rotation>
+<Translation>0 0 -0.19180000000000003</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="BaseFixed-2" uid="BaseFixed-2" entityUid="BaseFixed" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="BigBallBearingHolder-1" uid="BigBallBearingHolder-1" entityUid="BigBallBearingHolder*:*Default">
+<Transform>
+<Rotation>0 -1 0 -1 0 8.8817841970012523e-16 -8.8817841970012523e-16 0 -1</Rotation>
+<Translation>-0.17875000000000002 0 0.28000000000000008</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="angular contact ball bearing_68_din-1" uid="angular contact ball bearing_68_din-1" entityUid="angular contact ball bearing_68_din*:*DIN 628 - 7201B - 8,SI,NC,8_68">
+<Transform>
+<Rotation>-1 0 0 0 -0.35273983467331588 0.93572143773381722 0 0.935721437733817 0.35273983467331593</Rotation>
+<Translation>0.33325000000000005 0 0.28000000000000003</Translation>
+</Transform>
+</Instance>
+<Instance name="RodLeft-1" uid="RodLeft-1" entityUid="RodLeft*:*Default">
+<Transform>
+<Rotation>0 -1 0 -1.0000000000000002 0 8.1373798840786368e-16 -8.1025548617662469e-16 0 -1</Rotation>
+<Translation>-0.36875000000000002 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Pulley16mm-1" uid="Pulley16mm-1" entityUid="Pulley16mm*:*Default">
+<Transform>
+<Rotation>0 0 -1.0000000000000002 -0.095686017011334584 0.99541156621193971 0 0.9954115662119396 0.095686017011334501 0</Rotation>
+<Translation>0.24825000000000008 0 0.20000000000000015</Translation>
+</Transform>
+</Instance>
+<Instance name="RodMiddle-1" uid="RodMiddle-1" entityUid="RodMiddle*:*Default">
+<Transform>
+<Rotation>0 -0.99999999999999978 0 -1 0 7.9986020060004923e-16 -7.9703956873991955e-16 0 -1</Rotation>
+<Translation>-0.16874999999999996 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElbowHolder-1" uid="ElbowHolder-1" entityUid="ElbowHolder*:*Default">
+<Transform>
+<Rotation>0 -1.0000000000000002 0 -0.99999999999999989 0 8.8817841970012523e-16 -7.4940054162198066e-16 0 -1</Rotation>
+<Translation>-0.18875000000000008 0 0.28000000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="Flange-1" uid="Flange-1" entityUid="Flange*:*Default">
+<Transform>
+<Rotation>0 -1.7015443243576728e-16 -1 0.72062161351609433 0.69332855857339448 -1.1882104925185658e-16 0.69332855857339448 -0.72062161351609433 1.2180096181342051e-16</Rotation>
+<Translation>0.27115000000000011 0 0.20000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="BasePlate-1" uid="BasePlate-1" entityUid="BasePlate*:*Default">
+<Transform>
+<Rotation>1 0 1.1102230246251565e-16 1.1102230246251565e-16 0 -1 0 1 0</Rotation>
+<Translation>0.45824999999999999 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RodRight-1" uid="RodRight-1" entityUid="RodRight*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>0.31825000000000009 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorShell-1" uid="MotorShell-1" entityUid="MotorShell*:*Default">
+<Transform>
+<Rotation>-1.2061148076784585e-16 1 -1.7143097181336073e-16 0.72062161351609888 2.0577322846168376e-16 0.69332855857338971 0.69332855857338971 0 -0.72062161351609888</Rotation>
+<Translation>0.27365000000000006 0 0.20000000000000012</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorCore-1" uid="MotorCore-1" entityUid="MotorCore*:*Default">
+<Transform>
+<Rotation>1.6117272216401802e-16 1 1.3495049850079392e-16 -0.99999999999999989 1.764605031309519e-16 -3.2751579226442118e-15 -3.3861802251067274e-15 0 1</Rotation>
+<Translation>0.28405000000000002 0 0.20000000000000007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link2-2" uid="Link2-2" entityUid="Link2" rigid="true">
+<Transform>
+<Rotation>5.2739930478384878e-15 1 -1.1187822346969733e-13 5.5469247720644621e-15 1.1187829073034959e-13 1 1.0000000000000002 -5.2739930478384878e-15 -5.5457156240443255e-15</Rotation>
+<Translation>0 -7.42185354358829e-14 0.28000000000000014</Translation>
+</Transform>
+<Instance name="Link2StellConnectors-1" uid="Link2StellConnectors-1" entityUid="Link2StellConnectors*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.030000000000000027 0.01999999999999981 0.15399999999999986</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2FrontShaft-1" uid="Link2FrontShaft-1" entityUid="Link2FrontShaft*:*Default">
+<Transform>
+<Rotation>-1.2610923828987512e-16 -1.5799520364112931e-15 1.0000000000000002 0 1 1.5799520364119123e-15 -1 0 -1.2490009027033011e-16</Rotation>
+<Translation>0 0 -0.1410000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Pulley40mm-1" uid="Pulley40mm-1" entityUid="Pulley40mm*:*Default">
+<Transform>
+<Rotation>0.22045988880155665 0.97539604132352586 2.6821928071947855e-16 -0.97539604132352586 0.22045988880155665 0 0 -2.6248374188091522e-16 1</Rotation>
+<Translation>0 0 -0.26700000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2LShape-2" uid="Link2LShape-2" entityUid="Link2LShape*:*Default">
+<Transform>
+<Rotation>1 2.4286128663737373e-16 0 2.4286128663737373e-16 -1 0 0 0 -1</Rotation>
+<Translation>-0.029999999999999971 0.0099999999999999169 -0.15499999999999992</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2LShape-1" uid="Link2LShape-1" entityUid="Link2LShape*:*Default">
+<Transform>
+<Rotation>-1 -7.2858385991087873e-16 4.7975355518553526e-16 -7.2858385991087873e-16 1 0 -4.7975355518553526e-16 0 -1</Rotation>
+<Translation>0.030000000000000082 -0.010000000000000092 -0.15500000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2LShapeConnectorFront-1" uid="Link2LShapeConnectorFront-1" entityUid="Link2LShapeConnectorFront*:*Default">
+<Transform>
+<Rotation>-1 0 4.8572257327412741e-16 -4.8572257327412741e-16 0 -1 0 -1 0</Rotation>
+<Translation>0 0 -0.1450000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2LShape-4" uid="Link2LShape-4" entityUid="Link2LShape*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.029999999999999916 -0.010000000000000113 0.15500000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2LShapeConnectorUpper-1" uid="Link2LShapeConnectorUpper-1" entityUid="Link2LShapeConnectorUpper*:*Default">
+<Transform>
+<Rotation>0 1 -7.1817551905501867e-16 0 7.1817551905501867e-16 1 1 0 0</Rotation>
+<Translation>0.12500000000000006 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="angular contact ball bearing_68_din-2" uid="angular contact ball bearing_68_din-2" entityUid="angular contact ball bearing_68_din*:*DIN 628 - 7201B - 8,SI,NC,8_68">
+<Transform>
+<Rotation>1 -1.2002868157625477e-16 0 1.0179494176656118e-16 0.73535893705722732 0.67767782440483082 0 -0.67767782440483082 0.73535893705722732</Rotation>
+<Translation>-0.13000000000000009 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2LShapeConnectorLower-1" uid="Link2LShapeConnectorLower-1" entityUid="Link2LShapeConnectorLower*:*Default">
+<Transform>
+<Rotation>0 -1.0000000000000004 -1.2143064331775724e-16 0 -1.2143064331899733e-16 1 -1 0 0</Rotation>
+<Translation>-0.12500000000000008 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="angular contact ball bearing_68_din-1" uid="angular contact ball bearing_68_din-1" entityUid="angular contact ball bearing_68_din*:*DIN 628 - 7201B - 8,SI,NC,8_68">
+<Transform>
+<Rotation>1 -1.2002868157625477e-16 0 1.0179494176656118e-16 0.73535893705722732 0.67767782440483082 0 -0.67767782440483082 0.73535893705722732</Rotation>
+<Translation>0.14000000000000007 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2LShape-3" uid="Link2LShape-3" entityUid="Link2LShape*:*Default">
+<Transform>
+<Rotation>-1.0000000000000004 7.216449660057325e-16 4.7975355518558673e-16 -7.1817551905501897e-16 -1 0 4.7733525914649593e-16 0 1</Rotation>
+<Translation>0.030000000000000082 0.0099999999999999152 0.15500000000000008</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2BackShaft-1" uid="Link2BackShaft-1" entityUid="Link2BackShaft*:*Default">
+<Transform>
+<Rotation>0 -6.0023966678665609e-16 -1 0 1 -6.0023966678665609e-16 1 0 0</Rotation>
+<Translation>0 0 0.14100000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2LShapeConnectorFront-2" uid="Link2LShapeConnectorFront-2" entityUid="Link2LShapeConnectorFront*:*Default">
+<Transform>
+<Rotation>-1.0000000000000004 0 -4.8572257327288673e-16 -4.8572257327412603e-16 0 1 0 1 0</Rotation>
+<Translation>0 0 0.14500000000000013</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric283">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link3-2</Uid>
+<Uid>BigBallBearing-2</Uid>
+</InstancePath>
+<Position>0 0.015999999999999986 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BaseFixed-2</Uid>
+<Uid>BigBallBearingHolder-1</Uid>
+</InstancePath>
+<Position>0 0.0056359019496972085 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident272">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link3-2</Uid>
+<Uid>BigBallBearing-2</Uid>
+</InstancePath>
+<Position>0 0.015999999999999986 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BaseFixed-2</Uid>
+<Uid>BigBallBearingHolder-1</Uid>
+</InstancePath>
+<Position>-0.070000000000000007 0.0080000000000000071 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident273">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BaseFixed-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WristAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident274">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BaseFixed-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WristAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident275">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BaseFixed-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WristAssembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric284">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link1-1</Uid>
+<Uid>Link1LowerShaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link2-2</Uid>
+<Uid>angular contact ball bearing_68_din-2</Uid>
+</InstancePath>
+<Position>-0.020637500000000003 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric285">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link3-2</Uid>
+<Uid>angular contact ball bearing_68_din-1</Uid>
+</InstancePath>
+<Position>-0.020637500000000003 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link2-2</Uid>
+<Uid>Link2FrontShaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident276">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1-1</Uid>
+<Uid>MotorCore-2</Uid>
+</InstancePath>
+<Position>0 0.034200000000000008 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2-2</Uid>
+<Uid>Link2LShapeConnectorLower-1</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2-2</Uid>
+<Uid>Link2LShapeConnectorFront-1</Uid>
+</InstancePath>
+<Position>0 0.01999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link3-2</Uid>
+<Uid>Link3LShapeConnectorFront-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+<Frames>
+</Frames>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Link3" uid="Link3" version="4661">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="../solidworks/asm/Link3.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+<Frame name="CS3" uid="CS3">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Assembly>
+<Assembly name="Link1" uid="Link1" version="461">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="../solidworks/asm/Link1.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+<Frame name="CS1" uid="CS1">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Assembly>
+<Assembly name="BaseFixed" uid="BaseFixed" version="178">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="../solidworks/asm/BaseFixed.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+<Frame name="CS0" uid="CS0">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Assembly>
+<Assembly name="Link2" uid="Link2" version="208">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="../solidworks/asm/Link2.SLDASM" type="SolidWorks Assembly"/>
+<Frames>
+<Frame name="CS2" uid="CS2">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Frame>
+</Frames>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="BasePlate" uid="BasePlate*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/BasePlate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>12.208209495632826</Mass>
+<CenterOfMass>-0.473324765736094 0.010000000000000007 0</CenterOfMass>
+<Inertia>0.08614208561759279 0.98588286669108494 0.90055466170653431 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/BasePlate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="BigBallBearing" uid="BigBallBearing*:*Default" version="148">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/BigBallBearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.79903267551402757</Mass>
+<CenterOfMass>0 0.0079999999999998597 0</CenterOfMass>
+<Inertia>0.0018598151383151539 0.003685538215808457 0.0018598151383151531 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/BigBallBearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="BigBallBearingHolder" uid="BigBallBearingHolder*:*Default" version="363">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/BigBallBearingHolder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11523361853367362</Mass>
+<CenterOfMass>0 0 0.052306494783076848</CenterOfMass>
+<Inertia>7.9164990775023035e-05 0.00046531116049330597 0.00039444064453019275 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/BigBallBearingHolder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.5"/>
+<Diffuse r="1" g="1" b="1" a="0.5"/>
+<Specular r="0.5" g="0.5" b="0.5" a="0.5"/>
+<Emissive r="0" g="0" b="0" a="0.5"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="BigBallBearingInner" uid="BigBallBearingInner*:*Default" version="150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/BigBallBearingInner.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.58844543675859695</Mass>
+<CenterOfMass>0 0.021500000000000068 0</CenterOfMass>
+<Inertia>0.00098804892543741924 0.0017947585821137205 0.00098804892543741946 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/BigBallBearingInner_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Specular r="0.01" g="0.0094901960784313719" b="0.0089803921568627453" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="ElbowHolder" uid="ElbowHolder*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/ElbowHolder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.1427177114890625</Mass>
+<CenterOfMass>-1.0471977653876602e-10 0.099494169807181926 0.051052188861668985</CenterOfMass>
+<Inertia>0.0084174211468545784 0.0082739047206768831 0.014002042435042047 5.4668039579110625e-06 2.8367956150365109e-11 -3.5435811376780693e-11</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/ElbowHolder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Flange" uid="Flange*:*Default" version="335">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Flange.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.078113987753894693</Mass>
+<CenterOfMass>0 0 0.0056585809985912824</CenterOfMass>
+<Inertia>1.5640324027370141e-05 1.5640324027370134e-05 2.5907488034296292e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Flange_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Specular r="0.01" g="0.0094901960784313719" b="0.0089803921568627453" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link1Body" uid="Link1Body*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link1Body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.49924226463437027</Mass>
+<CenterOfMass>0.041870367613774696 0 0.11499999999999996</CenterOfMass>
+<Inertia>0.0044493830563174944 0.0050100733906752477 0.00064743230130341557 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link1Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link1LowerShaft" uid="Link1LowerShaft*:*Default" version="514">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link1LowerShaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.066382137343564573</Mass>
+<CenterOfMass>0.054427560764595519 0 0</CenterOfMass>
+<Inertia>8.9110111256236946e-07 6.55434892096404e-05 6.5444765765715723e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link1LowerShaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link1UpperShaft" uid="Link1UpperShaft*:*Default" version="468">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link1UpperShaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033060624163836844</Mass>
+<CenterOfMass>0.027280711559945697 0 0</CenterOfMass>
+<Inertia>4.8624731983183995e-07 8.2023615981835591e-06 8.1236395791243674e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link1UpperShaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link2BackShaft" uid="Link2BackShaft*:*Default" version="468">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link2BackShaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033060624163836844</Mass>
+<CenterOfMass>0.027280711559945697 0 0</CenterOfMass>
+<Inertia>4.8624731983183995e-07 8.2023615981835574e-06 8.1236395791243657e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link2BackShaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link2FrontShaft" uid="Link2FrontShaft*:*Default" version="333">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link2FrontShaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.077273943105096693</Mass>
+<CenterOfMass>0.063166390381816193 0 0</CenterOfMass>
+<Inertia>1.0367053513164748e-06 0.0001019880926212512 0.000101909370602192 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link2FrontShaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link2LShape" uid="Link2LShape*:*Default" version="200">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link2LShape.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18304593947593975</Mass>
+<CenterOfMass>-0.075929794725533975 0.01 -0.0364188304548504</CenterOfMass>
+<Inertia>0.00027820212409133981 0.00048254241311574 0.00021654335165612957 0 0.00018052828066563117 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link2LShape_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link2LShapeConnectorFront" uid="Link2LShapeConnectorFront*:*Default" version="176">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link2LShapeConnectorFront.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.21524863916164486</Mass>
+<CenterOfMass>0 0.010000000000000002 0</CenterOfMass>
+<Inertia>5.7114485516777846e-05 0.00031050182213353635 0.00026773724589420142 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link2LShapeConnectorFront_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link2LShapeConnectorLower" uid="Link2LShapeConnectorLower*:*Default" version="242">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link2LShapeConnectorLower.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2806599612428472</Mass>
+<CenterOfMass>0 0.010000000000000002 0</CenterOfMass>
+<Inertia>0.00012093104685521912 0.00058479626515729776 0.00048257588238493509 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link2LShapeConnectorLower_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link2LShapeConnectorUpper" uid="Link2LShapeConnectorUpper*:*Default" version="263">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link2LShapeConnectorUpper.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.35568430980971671</Mass>
+<CenterOfMass>0 0.010000000000000002 0.0096019119317455742</CenterOfMass>
+<Inertia>0.00025131866567980516 0.00074494390270475228 0.00051733752434559492 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link2LShapeConnectorUpper_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link2StellConnectors" uid="Link2StellConnectors*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link2StellConnectors.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.75844532915556151</Mass>
+<CenterOfMass>0.029999999999999912 -0.020112980457803721 -0.15449999999999994</CenterOfMass>
+<Inertia>0.011279869443915876 0.019607922637805111 0.0090303542062092901 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link2StellConnectors_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.90980392156862744" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.90980392156862744" a="1"/>
+<Specular r="0.5" g="0.47450980392156861" b="0.45490196078431372" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link3LShapeConnectorBig" uid="Link3LShapeConnectorBig*:*Default" version="178">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link3LShapeConnectorBig.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.5702640951524558</Mass>
+<CenterOfMass>0 0.01 0</CenterOfMass>
+<Inertia>0.00081716001334427343 0.0048621371147155945 0.004082994707714822 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link3LShapeConnectorBig_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link3LShapeConnectorFront" uid="Link3LShapeConnectorFront*:*Default" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link3LShapeConnectorFront.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.27464802185039361</Mass>
+<CenterOfMass>0 0.009999999999999995 0</CenterOfMass>
+<Inertia>7.875382680933562e-05 0.0013824633518922634 0.0013220193932062872 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link3LShapeConnectorFront_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link3LShapeConnectorSide" uid="Link3LShapeConnectorSide*:*Default" version="160">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link3LShapeConnectorSide.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23674991540163784</Mass>
+<CenterOfMass>0 0.01 0</CenterOfMass>
+<Inertia>6.3154194175550055e-05 0.00049557081374813981 0.00044819994726603236 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link3LShapeConnectorSide_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link3LeftLShape" uid="Link3LeftLShape*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link3LeftLShape.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.21563430948970336</Mass>
+<CenterOfMass>-0.090963569336209846 0.01 -0.026190916534163767</CenterOfMass>
+<Inertia>0.00027553140395513966 0.00062255991942544362 0.00036148701385606204 0 0.00018445487821401292 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link3LeftLShape_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link3RightLShape" uid="Link3RightLShape*:*Default" version="166">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link3RightLShape.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.35579519999999915</Mass>
+<CenterOfMass>-0.1602750111250886 0.01 -0.031424988874911422</CenterOfMass>
+<Inertia>0.00082019701395137309 0.0028482509248705231 0.0020517735909191502 0 0.00076098423545273622 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link3RightLShape_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link3Shaft" uid="Link3Shaft*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link3Shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.06279435030949361</Mass>
+<CenterOfMass>0 0 0.050924999999999998</CenterOfMass>
+<Inertia>5.4675158553882894e-05 5.4675158553882894e-05 7.8492937886867013e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link3Shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Link3StellConnectors" uid="Link3StellConnectors*:*Default" version="197">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Link3StellConnectors.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.63699321612447346</Mass>
+<CenterOfMass>0.15113955083246605 -0.020000000000000004 -0.18500026364683247</CenterOfMass>
+<Inertia>0.015848469234277567 0.019127489431726843 0.0038688759155805375 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Link3StellConnectors_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.90980392156862744" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.90980392156862744" a="1"/>
+<Specular r="0.5" g="0.47450980392156861" b="0.45490196078431372" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="MotorBackCap" uid="MotorBackCap*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/MotorBackCap.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050643071464214935</Mass>
+<CenterOfMass>0 0.005000000000000001 0</CenterOfMass>
+<Inertia>9.894136378933639e-06 1.8950175249139913e-05 9.9000900612765263e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/MotorBackCap_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="MotorCore" uid="MotorCore*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/MotorCore.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.46886595358717409</Mass>
+<CenterOfMass>0 0.015901188595711848 0</CenterOfMass>
+<Inertia>0.00018809730771709283 0.00029690587561949014 0.0001880973077170928 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/MotorCore_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Specular r="0.01" g="0.0094901960784313719" b="0.0089803921568627453" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="MotorShell" uid="MotorShell*:*Default" version="171">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/MotorShell.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.21198122854104454</Mass>
+<CenterOfMass>0 0.012016408291123432 0</CenterOfMass>
+<Inertia>0.00018429493446114504 0.00031042583986510143 0.00018429493446114512 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/MotorShell_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Specular r="0.01" g="0.0094901960784313719" b="0.0089803921568627453" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Pulley16mm" uid="Pulley16mm*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Pulley16mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.004702587211305489</Mass>
+<CenterOfMass>0 0 0.0059999999999999993</CenterOfMass>
+<Inertia>1.644226028524312e-07 1.6442260285243114e-07 1.9582916744222137e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Pulley16mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Specular r="0.01" g="0.0094901960784313719" b="0.0089803921568627453" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Pulley40mm" uid="Pulley40mm*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Pulley40mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.051672476143273416</Mass>
+<CenterOfMass>0 0 0.0059999999999999984</CenterOfMass>
+<Inertia>5.807173862588407e-06 5.8071738625884062e-06 1.0296615608751707e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Pulley40mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Specular r="0.01" g="0.0094901960784313719" b="0.0089803921568627453" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="Pulley70mm" uid="Pulley70mm*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/Pulley70mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16961942708322994</Mass>
+<CenterOfMass>0 0.0059999999999999984 0</CenterOfMass>
+<Inertia>5.2573191053623605e-05 0.00010090403431413837 5.2573191053623618e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/Pulley70mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.89803921568627454" a="1"/>
+<Specular r="0.01" g="0.0094901960784313719" b="0.0089803921568627453" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="RodLeft" uid="RodLeft*:*Default" version="389">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/RodLeft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1549497979301633</Mass>
+<CenterOfMass>0 0.0099999999999999933 -0.12230725655003447</CenterOfMass>
+<Inertia>0.0076551161472405305 0.010645766343050101 0.0030676468490049152 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/RodLeft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="RodMiddle" uid="RodMiddle*:*Default" version="389">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/RodMiddle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1549497979301633</Mass>
+<CenterOfMass>0 0.0099999999999999933 -0.12230725655003447</CenterOfMass>
+<Inertia>0.0076551161472405305 0.010645766343050101 0.0030676468490049152 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/RodMiddle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="RodRight" uid="RodRight*:*Default" version="167">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/RodRight.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.7070389536684463</Mass>
+<CenterOfMass>0 0.010000000000000002 -0.13679145492865449</CenterOfMass>
+<Inertia>0.022182276474403038 0.031094594257607251 0.0090927870467821109 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/RodRight_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+<Part name="angular contact ball bearing_68_din" uid="angular contact ball bearing_68_din*:*DIN 628 - 7201B - 8,SI,NC,8_68" version="1856">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="../solidworks/prt/angular contact ball bearing_68_din.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0053684933134235096</Mass>
+<CenterOfMass>8.3240769896684582e-05 0 0</CenterOfMass>
+<Inertia>8.0818721915128989e-07 4.3921243716050181e-07 4.3921243716050186e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="../solidworks/stp/detailed/angular contact ball bearing_68_din_DIN 628 - 7201B - 8-SI-NC-8_68_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.94901960784313721" b="0.90980392156862744" a="1"/>
+<Diffuse r="1" g="0.94901960784313721" b="0.90980392156862744" a="1"/>
+<Specular r="0.5" g="0.47450980392156861" b="0.45490196078431372" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+<Frames>
+</Frames>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
