@@ -1,9 +1,21 @@
-# MATLAB temp files
+# General MATLAB backups and cache
 slprj/
 *.asv
 *.slxc
 *.slx.autosave
 *.slx.original
+*.mat~
+*.m~
+*.mex*
+*.log
+*.fig
+*.mexw64
+*.mexmaci64
+*.mexa64
+
+# Code generator files
+codegen/
+*.c
 
 # SolidWorks temporary files
 ~$*.sldprt
@@ -22,6 +34,7 @@ slprj/
 WristControl.slx
 InitController.m
 
-# temp test files
-tmp/
 
+# ignore changes in the following files for now
+solidworks/
+examples/
