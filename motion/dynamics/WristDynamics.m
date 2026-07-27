@@ -3,7 +3,7 @@ clear
 close all
 
 %% Parameter Declaration
-bodies = ReadMassProperties('../../description/MassProperties.txt');
+bodies = ReadMassProperties('MassProperties.txt');
 
 Link1 = bodies(1);
 Link2 = bodies(2);

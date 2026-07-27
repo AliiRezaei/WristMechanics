@@ -12,7 +12,7 @@
 %   3) Remove WristMechanics paths from the current session:
 %          >> install('reset')
 %
-% The script adds utils folder under the WristMechanics root
+% The script adds the required folders under the WristMechanics root
 % directory to the MATLAB search path.
 %
 % ---------------------------------------------------------
@@ -22,32 +22,59 @@
 function install(option)
 
     if nargin < 1
-        option = "";
+        option = ""; % default: just add paths for this session
     end
 
-    % WristMechanics root
-    rootDir  = fileparts(mfilename("fullpath"));
-    utilsDir = fullfile(rootDir, "utils");
+    % Locate WristMechanics root (directory where this file resides)
+    rootDir = fileparts(mfilename("fullpath"));
 
-    if ~isfolder(utilsDir)
-        error('[WristMechanics] utils folder not found:\n%s', utilsDir);
-    end
+    % Build a recursive list of all sub-directories
+    allPaths = strsplit(genpath(rootDir), pathsep);
 
-    % Add/remove utils
-    switch lower(option)
-        case "reset"
-            rmpath(utilsDir);
-            fprintf('[WristMechanics] Removed utils folder from the MATLAB path.\n');
-        otherwise
-            addpath(utilsDir);
-            fprintf('[WristMechanics] Added utils folder to the MATLAB path.\n');
-            if strcmpi(option, "save")
-                if savepath == 0
-                    fprintf('[WristMechanics] MATLAB path saved successfully.\n');
-                else
-                    warning('[WristMechanics] Unable to save the MATLAB path.');
-                end
+    % Exclusion patterns (folders to skip)
+    skipPatterns = { [filesep '.git'], ...
+        [filesep 'Trash'], ...
+        [filesep 'solidworks\prt'], ...
+        [filesep 'solidworks\asm'], ...
+        [filesep 'motion'], ...
+        [filesep 'examples'], ...
+        [filesep 'codegen'] };
+
+    % Filter out unwanted directories
+    keepMask = true(1, numel(allPaths));
+    for i = 1:numel(allPaths)
+        p = allPaths{i};
+        if isempty(p)
+            keepMask(i) = false; % ignore empty tokens
+            continue;
+        end
+        for k = 1:numel(skipPatterns)
+            if contains(p, skipPatterns{k})
+                keepMask(i) = false;
+                break;
             end
+        end
+    end
+    userPaths = allPaths(keepMask);
+
+    % Add selected paths to MATLAB path
+    cellfun(@(p) addpath(p), userPaths);
+    fprintf("[WristMechanics] Added %d folders to MATLAB path.\n", numel(userPaths));
+
+    % Handle optional arguments
+    switch lower(option)
+        case 'save'
+            % Attempt to persist the new path
+            status = savepath;
+            if status == 0
+                fprintf('[WristMechanics] Path saved successfully. WristMechanics will be available in future MATLAB sessions.\n');
+            else
+                warning('[WristMechanics] Unable to save the MATLAB path automatically. You may need to run MATLAB with administrator privileges.');
+            end
+        case 'reset'
+            % Remove paths added by this install
+            cellfun(@(p) rmpath(p), userPaths);
+            fprintf('[WristMechanics] WristMechanics paths removed from current session.\n');
     end
 
     % Check for ManiDyn
