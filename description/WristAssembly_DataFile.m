@@ -796,6 +796,8 @@ smiData.Solid(33).color = [0.65098039215686276 0.61960784313725492 0.58823529411
 smiData.Solid(33).opacity = 1;
 smiData.Solid(33).ID = "Link2BackShaft*:*Default";
 
+
+%============= General Bodies =============%
 %Inertia Type - Custom
 %Visual Properties - Simple
 smiData.BaseFixed.mass = 20.25213163;  % kg
@@ -835,6 +837,22 @@ smiData.Link3.PoI = [0.00000000 14340.93898227 0.00000000];  % kg*mm^2
 smiData.Link3.color = [1 1 1];
 smiData.Link3.opacity = 1;
 smiData.Link3.ID = "Link3*:*Default";
+
+
+%============= Identified Parameters =============%
+smiData.IdentifiedParams.symbol = sym('varphi', [12, 1], 'real');
+smiData.IdentifiedParams.value  = [0.010083256217378
+                                  -0.011990307210519
+                                  -0.022282151036095
+                                  -0.021106432380524
+                                   0.006155073357118
+                                   0.001040923539465
+                                   0.021474855117912
+                                  -0.080878909956297
+                                   0.056710753701345
+                                  -0.192796005076027
+                                   1.992473610989311
+                                   1.410943955104667];
 
 %============= Joint =============%
 %X Revolute Primitive (Rx) %Y Revolute Primitive (Ry) %Z Revolute Primitive (Rz)
