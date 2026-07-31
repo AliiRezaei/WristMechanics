@@ -12,10 +12,10 @@ Base  = bodies(4);
 
 L1 = 0; L2 = 0; L3 = 0;
 
-alpha = [0, -pi/2, -pi/2];
-a     = [L1,   L2,    L3];
-d     = [0.280, 0,     0];
-theta = [0, -pi/2, +pi/2];
+alpha = [-pi/2, +pi/2, +pi/2];
+a     = [L1,       L2,    L3];
+d     = [0,         0,     0];
+theta = [-pi/2, +pi/2,     0];
 type  = 'rrr';
 
 DH    = DHStruct('alpha', alpha, ...
@@ -51,10 +51,10 @@ DynPar = DynStruct('Mass',    M, ...
 fprintf('\n ================   Dynamics Validation(g = [0, 0, -9.81])   ========================== \n');
 wristDyn = ManipulatorDynamics(DynPar);
 
-B = vpa(wristDyn.MassMatrix, 5);  disp('Symbolic Mass matrix B(q):');               disp(B);
-C = vpa(wristDyn.Coriolis, 5);    disp('Symbolic Coriolis matrix C(q, qd):');       disp(C);
-g = vpa(wristDyn.Gravity, 5);     disp('Symbolic gravity vector g(q):');            disp(g);
-Y = vpa(wristDyn.Regressor, 5);   disp('Symbolic regressor matrix Y(qdd, qd, q):'); disp(Y);
+B = vpa(expand(wristDyn.MassMatrix), 5);  disp('Symbolic Mass matrix B(q):');               disp(B);
+C = vpa(expand(wristDyn.Coriolis), 5);    disp('Symbolic Coriolis matrix C(q, qd):');       disp(C);
+g = vpa(expand(wristDyn.Gravity), 5);     disp('Symbolic gravity vector g(q):');            disp(g);
+Y = vpa(expand(wristDyn.Regressor), 5);   disp('Symbolic regressor matrix Y(qdd, qd, q):'); disp(Y);
 
 %% Comprehensive Dynamics Tests
 fprintf('\n =====  Dynamics Return Types & Code Generation  ===== \n');

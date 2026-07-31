@@ -5,10 +5,10 @@ close all
 %% Parameter Declaration
 L1 = 0; L2 = 0; L3 = 0;
 
-alpha = [0, -pi/2, -pi/2];
-a     = [L1,   L2,    L3];
-d     = [0.280, 0,     0];
-theta = [0, -pi/2, +pi/2];
+alpha = [-pi/2, +pi/2, +pi/2];
+a     = [L1,       L2,    L3];
+d     = [0,         0,     0];
+theta = [-pi/2, +pi/2,     0];
 type  = 'rrr';
 
 DH    = DHStruct('alpha', alpha, ...
