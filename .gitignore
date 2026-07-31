@@ -28,13 +28,3 @@ codegen/
 # SolidWorks backups and auto-recovery
 *.bak
 *.swbak
-
-
-# Control test files
-WristControl.slx
-InitController.m
-
-
-# ignore changes in the following files for now
-solidworks/
-examples/
