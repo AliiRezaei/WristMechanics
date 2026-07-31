@@ -3,6 +3,74 @@ Mass properties of Link1
      Configuration: Default
      Coordinate system: CS1
 
+Mass = 5.53045492 kilograms
+
+Volume = 0.00166475 cubic meters
+
+Surface area = 0.46273047 square meters
+
+Center of mass: ( meters )
+	X = 0.00000000
+	Y = 0.03064790
+	Z = -0.01539057
+
+Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
+Taken at the center of mass.
+	 Ix = ( 0.00000000, -0.24791872,  0.96878083)   	Px = 0.10524699
+	 Iy = ( 0.00000000,  0.96878083,  0.24791872)   	Py = 0.16495640
+	 Iz = (-1.00000000,  0.00000000,  0.00000000)   	Pz = 0.26133492
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the center of mass and aligned with the output coordinate system. (Using negative tensor notation.)
+	Lxx = 0.26133492	Lxy = 0.00000000	Lxz = 0.00000000
+	Lyx = 0.00000000	Lyy = 0.16128644	Lyz = 0.01434094
+	Lzx = 0.00000000	Lzy = 0.01434094	Lzz = 0.10891695
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the output coordinate system. (Using negative tensor notation.)
+	Ixx = 0.26783964	Ixy = 0.00000000	Ixz = 0.00000000
+	Iyx = 0.00000000	Iyy = 0.16259643	Iyz = 0.01694959
+	Izx = 0.00000000	Izy = 0.01694959	Izz = 0.11411168
+
+2)
+Mass properties of Link2
+     Configuration: Default
+     Coordinate system: CS2
+
+Mass = 2.73021467 kilograms
+
+Volume = 0.00091178 cubic meters
+
+Surface area = 0.26654773 square meters
+
+Center of mass: ( meters )
+	X = 0.00121952
+	Y = -0.00372969
+	Z = -0.00881946
+
+Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
+Taken at the center of mass.
+	 Ix = ( 0.00081816, -0.00806218,  0.99996717)   	Px = 0.03090175
+	 Iy = ( 0.01536187, -0.99984940, -0.00807380)   	Py = 0.04208008
+	 Iz = ( 0.99988166,  0.01536797, -0.00069419)   	Pz = 0.07127195
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the center of mass and aligned with the output coordinate system. (Using negative tensor notation.)
+	Lxx = 0.07126504	Lxy = 0.00044864	Lxz = -0.00002941
+	Lyx = 0.00044864	Lyy = 0.04208625	Lyz = 0.00008981
+	Lzx = -0.00002941	Lzy = 0.00008981	Lzz = 0.03090250
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the output coordinate system. (Using negative tensor notation.)
+	Ixx = 0.07151538	Ixy = 0.00046106	Ixz = -0.00000004
+	Iyx = 0.00046106	Iyy = 0.04230268	Iyz = 0.00000000
+	Izx = -0.00000004	Izy = 0.00000000	Izz = 0.03094454
+
+3)
+Mass properties of Link3
+     Configuration: Default
+     Coordinate system: CS3
+
 Mass = 1.33017528 kilograms
 
 Volume = 0.00042162 cubic meters
@@ -32,74 +100,6 @@ Taken at the output coordinate system. (Using negative tensor notation.)
 	Iyx = 0.00000000	Iyy = 0.02957390	Iyz = 0.00000000
 	Izx = 0.00000000	Izy = 0.00000000	Izz = 0.00215033
 
-2)
-Mass properties of Link2
-     Configuration: Default
-     Coordinate system: CS2
-
-Mass = 2.73021467 kilograms
-
-Volume = 0.00091178 cubic meters
-
-Surface area = 0.26654773 square meters
-
-Center of mass: ( meters )
-	X = 0.00372969
-	Y = 0.00121952
-	Z = -0.00881946
-
-Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
-Taken at the center of mass.
-	 Ix = ( 0.00806218,  0.00081816,  0.99996717)   	Px = 0.03090175
-	 Iy = ( 0.99984940,  0.01536187, -0.00807380)   	Py = 0.04208008
-	 Iz = (-0.01536797,  0.99988166, -0.00069419)   	Pz = 0.07127195
-
-Moments of inertia: ( kilograms * square meters )
-Taken at the center of mass and aligned with the output coordinate system. (Using negative tensor notation.)
-	Lxx = 0.04208625	Lxy = -0.00044864	Lxz = -0.00008981
-	Lyx = -0.00044864	Lyy = 0.07126504	Lyz = -0.00002941
-	Lzx = -0.00008981	Lzy = -0.00002941	Lzz = 0.03090250
-
-Moments of inertia: ( kilograms * square meters )
-Taken at the output coordinate system. (Using negative tensor notation.)
-	Ixx = 0.04230268	Ixy = -0.00046106	Ixz = 0.00000000
-	Iyx = -0.00046106	Iyy = 0.07151538	Iyz = -0.00000004
-	Izx = 0.00000000	Izy = -0.00000004	Izz = 0.03094454
-
-3)
-Mass properties of Link3
-     Configuration: Default
-     Coordinate system: CS3
-
-Mass = 5.53045492 kilograms
-
-Volume = 0.00166475 cubic meters
-
-Surface area = 0.46273047 square meters
-
-Center of mass: ( meters )
-	X = 0.03064790
-	Y = 0.00000000
-	Z = -0.01539057
-
-Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
-Taken at the center of mass.
-	 Ix = (-0.24791872,  0.00000000,  0.96878083)   	Px = 0.10524699
-	 Iy = ( 0.96878083,  0.00000000,  0.24791872)   	Py = 0.16495640
-	 Iz = ( 0.00000000,  1.00000000,  0.00000000)   	Pz = 0.26133492
-
-Moments of inertia: ( kilograms * square meters )
-Taken at the center of mass and aligned with the output coordinate system. (Using negative tensor notation.)
-	Lxx = 0.16128644	Lxy = 0.00000000	Lxz = 0.01434094
-	Lyx = 0.00000000	Lyy = 0.26133492	Lyz = 0.00000000
-	Lzx = 0.01434094	Lzy = 0.00000000	Lzz = 0.10891695
-
-Moments of inertia: ( kilograms * square meters )
-Taken at the output coordinate system. (Using negative tensor notation.)
-	Ixx = 0.16259643	Ixy = 0.00000000	Ixz = 0.01694959
-	Iyx = 0.00000000	Iyy = 0.26783964	Iyz = 0.00000000
-	Izx = 0.01694959	Izy = 0.00000000	Izz = 0.11411168
-
 4)
 Mass properties of BaseFixed
      Configuration: Default
@@ -112,24 +112,24 @@ Volume = 0.00862874 cubic meters
 Surface area = 1.16721644 square meters
 
 Center of mass: ( meters )
-	X = -0.01741543
-	Y = 0.00000000
-	Z = 0.07139712
+	X = 0.00000000
+	Y = -0.01741543
+	Z = -0.20860288
 
 Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
 Taken at the center of mass.
-	 Ix = ( 0.99972120,  0.00000000, -0.02361187)   	Px = 0.27952806
-	 Iy = (-0.02361187,  0.00000000, -0.99972120)   	Py = 1.75518041
-	 Iz = ( 0.00000000,  1.00000000,  0.00000000)   	Pz = 1.81784312
+	 Ix = ( 0.00000000,  0.99972120, -0.02361187)   	Px = 0.27952806
+	 Iy = ( 0.00000000,  0.02361187,  0.99972120)   	Py = 1.75518041
+	 Iz = ( 1.00000000,  0.00000000,  0.00000000)   	Pz = 1.81784312
 
 Moments of inertia: ( kilograms * square meters )
 Taken at the center of mass and aligned with the output coordinate system. (Using negative tensor notation.)
-	Lxx = 0.28035076	Lxy = 0.00000000	Lxz = 0.03483320
-	Lyx = 0.00000000	Lyy = 1.81784312	Lyz = 0.00000000
-	Lzx = 0.03483320	Lzy = 0.00000000	Lzz = 1.75435770
+	Lxx = 1.81784312	Lxy = 0.00000000	Lxz = 0.00000000
+	Lyx = 0.00000000	Lyy = 0.28035076	Lyz = 0.03483320
+	Lzx = 0.00000000	Lzy = 0.03483320	Lzz = 1.75435770
 
 Moments of inertia: ( kilograms * square meters )
 Taken at the output coordinate system. (Using negative tensor notation.)
-	Ixx = 0.38358698	Ixy = 0.00000000	Ixz = 0.06001493
-	Iyx = 0.00000000	Iyy = 1.92722175	Iyz = 0.00000000
-	Izx = 0.06001493	Izy = 0.00000000	Izz = 1.76050012
+	Ixx = 2.70526035	Ixy = 0.00000000	Ixz = 0.00000000
+	Iyx = 0.00000000	Iyy = 1.16162558	Iyz = -0.03874095
+	Izx = 0.00000000	Izy = -0.03874095	Izz = 1.76050012
